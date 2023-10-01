@@ -19,7 +19,7 @@ const Home = () => {
         alt="Doggie banner"
         className="relative object-cover h-screen w-screen"
       />
-      <span className="absolute text-white  top-[25rem] left-[20%] text-[5.875rem]  leading-[6.25rem]  opacity-[0.7] text-stroke-2 text-black">
+      <span className="absolute text-white  top-[20rem] left-[20%] text-[5rem]  leading-[6.25rem]  opacity-[0.7] text-stroke-2 ">
         Get Love and Loyalty,
         <br /> in the Purest form{" "}
       </span>
@@ -145,7 +145,7 @@ const Home = () => {
       <div className=" flex justify-center items-center flex-col pt-[3rem] pb-[3rem]">
         <h2 className=" text-4xl mb-[2rem]">Pet Care</h2>
 
-        <div className="flex justify-between items-center w-[60%] gap-10 ">
+        <div className="flex justify-between items-center w-[90%] gap-10 ">
           <div className="flex justify-center items-center bg-[#B9A89B]  w-full    px-[2rem]  gap-[2rem]  py-[1.5rem] text-[0.9rem] ">   
     
             <div>
