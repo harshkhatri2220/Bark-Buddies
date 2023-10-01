@@ -14,15 +14,16 @@ import image2 from "../../images/landing/image2.png"
 const Home = () => {
   return (
     <div className="font-poppins">
+      <span className="absolute text-white  z-10 top-[5rem] left-[18%] text-[2rem]   text-stroke-2 ">
+        Get Love and Loyalty,
+        <br /> in the Purest form{" "}
+      </span>
       <img
         src={HomeBanner}
         alt="Doggie banner"
         className="relative object-cover h-screen w-screen"
       />
-      <span className="absolute text-white  top-[20rem] left-[20%] text-[5rem]  leading-[6.25rem]  opacity-[0.7] text-stroke-2 ">
-        Get Love and Loyalty,
-        <br /> in the Purest form{" "}
-      </span>
+      
       <div className="absolute flex justify-center items-center  bottom-10 w-full text-center">
         <input
           type="text"
@@ -66,10 +67,8 @@ const Home = () => {
             <p className="font-bold text-4xl">Bark Buddies</p>
             <p>Give a shelter, get a buddy</p>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
-              nisi fuga officiis illum facilis reiciendis iure nam suscipit,
-              nesciunt cum, distinctio, cupiditate ab id fugiat eaque dolorum
-              eum sit natus!
+            At our heartwarming company, we've developed a website dedicated to making a difference in the lives of dogs and their owners. We're on a mission to provide shelter and loving homes for stray dogs while helping owners find the perfect companions for their furry friends nearby. Join us in giving shelter to the helpless and joy to people.
+
             </p>
             <button className="bg-[#0E0808] text-white w-[23%]">
               Read More
@@ -96,41 +95,33 @@ const Home = () => {
         />
 
         <div className="absolute  flex justify-center flex-col items-center w-full top-6 left-0">
-          <span className="bg-white text-base px-16 py-2 mb-6">
+          <span className="bg-white font-bold text-base px-16 py-2 mb-6">
             Planning to adopt a pet
           </span>
           <div className="flex justify-center gap-4">
             <div className="bg-white flex flex-col justify-center items-center p-3 gap-6 bg-opacity-80 w-[20em] h-[16em]">
-              <p className="text-[26px]">Check list for new Adopters</p>
+              <p className="text-[26px] font-bold">Check list for new Adopters</p>
               <p className="text-xs">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
-                vero earum asperiores tempora sint. Recusandae velit illo culpa
-                vel aliquam molestiae placeat rerum nihil corporis nulla, iste
-                suscipit ipsum quaerat.
+              If you are planning to adopt a new pet you have to be a qualified to adopt a new pet and take full responsibility for your new buddy.
               </p>
               <button className="bg-[#FFB267] py-1 px-[0.6em]">
                 Learn More
               </button>
             </div>
             <div className="bg-white flex flex-col justify-center items-center p-3 gap-6 bg-opacity-80 w-[20em] h-[16em]">
-              <p className="text-[26px]">Pet Healthcare Near You</p>
+              <p className="text-[26px] font-bold">Pet Healthcare Near You</p>
               <p className="text-xs">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
-                vero earum asperiores tempora sint. Recusandae velit illo culpa
-                vel aliquam molestiae placeat rerum nihil corporis nulla, iste
-                suscipit ipsum quaerat.
+              Find list of vets and other resources near you so that if your buddy ever gets unhealthy, you know where to reach and make quick action.  
+
               </p>
               <button className="bg-[#FFB267] py-1 px-[0.6em]">
                 Learn More
               </button>
             </div>
             <div className="bg-white flex flex-col justify-center items-center p-3 gap-6 bg-opacity-80 w-[20em] h-[16em]">
-              <p className="text-[26px]">NGO's Near You</p>
+              <p className="text-[26px] font-bold">NGO's Near You</p>
               <p className="text-xs">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
-                vero earum asperiores tempora sint. Recusandae velit illo culpa
-                vel aliquam molestiae placeat rerum nihil corporis nulla, iste
-                suscipit ipsum quaerat.
+              We have curated a list of NGO’s that would help you in your journey with your buddy. So that at any point of time you both won’t need to compromise.
               </p>
               <button className="bg-[#FFB267] py-1 px-[0.6em]">
                 Learn More
@@ -143,7 +134,7 @@ const Home = () => {
 
 
       <div className=" flex justify-center items-center flex-col pt-[3rem] pb-[3rem]">
-        <h2 className=" text-4xl mb-[2rem]">Pet Care</h2>
+        <h2 className=" text-4xl mb-[2rem] font-bold">Pet Care</h2>
 
         <div className="flex justify-between items-center w-[90%] gap-10 ">
           <div className="flex justify-center items-center bg-[#B9A89B]  w-full    px-[2rem]  gap-[2rem]  py-[1.5rem] text-[0.9rem] ">   
@@ -153,7 +144,7 @@ const Home = () => {
             </div>
             <div>
               <div>
-                <p>New Adopt</p>
+                <p className="font-bold">New Adopt</p>
               </div>
               <div className=" flex flex-col gap-3">
                 <p>
@@ -173,13 +164,11 @@ const Home = () => {
             </div>
             <div>
               <div>
-                <p>New Adopt</p>
+                <p className="font-bold">Disease Detection</p>
               </div>
               <div className="flex flex-col gap-3">
                 <p>
-                  Adopted a new pet ? Read about how you can care more them with
-                  our verified and tested resources for your dog so that you
-                  both are healthy and can have fun together.
+                Enter symptoms of your dog and find the possible diseases with the help of our chat bot and take actions accordingly. 
                 </p>
                 <button className="bg-[#524439] py-1 px-[0.6em] text-white">
                   Learn More
